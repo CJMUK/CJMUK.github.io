@@ -1,0 +1,31 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
+/* Override default styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*genral styles */ 
+body{
+    font-family: Lato, sans-serif;
+}
+
+h1{
+    font-family: Oswald, sans-serif;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: grey;
+    
+}
+
+/* images */
+.hero-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+
+}
