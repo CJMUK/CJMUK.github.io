@@ -21,6 +21,10 @@ body{
     color: rgb(81, 81, 81);
 }
 
+.storysection {
+    padding: 2.5rem;
+}
+
 /* images */
 .hero-img{
     background-position: center;
