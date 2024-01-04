@@ -61,9 +61,8 @@ body {
 .edudisclaimer {
   width: 25%;
   height: 15%;
-  text-align:right;
+  text-align: right;
   padding: 2.5px;
-
 }
 
 /* hero section  */
@@ -96,25 +95,24 @@ cta-news-button {
 /* Footer */
 
 .main-footer {
-  background-color: rgba(0, 0, 0, 0.738);
-  color: rgb(56, 55, 55);
+  background-color: rgba(62, 62, 62, 0.842);
+  color: rgb(231, 231, 231);
   position: absolute;
   bottom: 1;
   width: 100%;
-  opacity: 50%;
 }
 
 footer p {
   font-size: xx-small;
   font-family: Lato, sans-serif;
-  color: rgb(0, 0, 0);
+  color: rgb(231, 231, 231);
   text-align: center;
 }
 
-footer h6 { 
+footer h6 {
   font-size: small;
   font-family: Lato, sans-serif;
-  color: rgb(0, 0, 0);
+  color: rgb(231, 231, 231);
   text-align: center;
   text-transform: capitalize;
 }
