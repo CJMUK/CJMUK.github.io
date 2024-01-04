@@ -57,3 +57,64 @@ body {
   text-align: center;
   text-transform: capitalize;
 }
+
+.edudisclaimer {
+  width: 25%;
+  height: 15%;
+  text-align:right;
+  padding: 2.5px;
+
+}
+
+/* hero section  */
+
+.hero-container {
+  position: relative;
+  background: url("../images/heroimghome.png") center/cover no-repeat;
+  height: 80vh;
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+
+/* Buttons  */
+
+cta-news-button {
+  padding: 10px;
+  justify-content: center;
+  border-radius: 5px;
+  color: transparent;
+}
+
+/* Footer */
+
+.main-footer {
+  background-color: rgba(0, 0, 0, 0.738);
+  color: rgb(56, 55, 55);
+  position: absolute;
+  bottom: 1;
+  width: 100%;
+  opacity: 50%;
+}
+
+footer p {
+  font-size: xx-small;
+  font-family: Lato, sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+footer h6 { 
+  font-size: small;
+  font-family: Lato, sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-transform: capitalize;
+}

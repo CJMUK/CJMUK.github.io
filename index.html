@@ -56,16 +56,6 @@
       </div>
     </nav>
 
-    <!-- Button trigger modal -->
-    <button
-      type="button"
-      class="btn btn-primary"
-      data-toggle="modal"
-      data-target="#exampleModal"
-    >
-      Sign Up For Our Newsletter
-    </button>
-
     <!-- Modal -->
     <div
       class="modal fade"
@@ -105,6 +95,7 @@
                     class="form-control form-control-sm"
                     id="colFormLabelSm"
                     placeholder="Enter your email here!"
+                    required
                   />
                 </div>
               </div>
@@ -125,8 +116,18 @@
       </div>
     </div>
 
-    <!-- hero image -->
-    <img src="/assets/images/heroimghome.png" class="hero-img" />
+    <div class="hero-container">
+      <div class="hero-content">
+        <button
+          type="button"
+          class="btn btn-primary btn-dark btn-outline-light"
+          data-toggle="modal"
+          data-target="#exampleModal"
+        >
+          Sign Up For Our Newsletter
+        </button>
+      </div>
+    </div>
 
     <!-- Article Segments -->
     <div class="container">
@@ -157,11 +158,13 @@
             <em><strong>Latest Climbing News and Events</strong></em>
           </div>
           <br />
-          <img
-            src="/assets/images/climb_news_events.png"
-            alt="Community Climbers"
-            class="section-image"
-          />
+          <a href="#">
+            <img
+              src="/assets/images/climb_news_events.png"
+              alt="Community Climbers"
+              class="section-image"
+            />
+          </a>
           <p class="gen-text">
             Stay in the loop with the latest in the climbing world. Check out
             upcoming events, competitions, and news about the climbing
@@ -174,11 +177,13 @@
             <em><strong>Climbing Stories and Journeys</strong></em>
           </div>
           <br />
-          <img
-            src="/assets/images/stor_jour.png"
-            alt="Community Climbers"
-            class="section-image"
-          />
+          <a href="#">
+            <img
+              src="/assets/images/stor_jour.png"
+              alt="Community Climbers"
+              class="section-image"
+            />
+          </a>
           <p class="gen-text">
             Embark on a journey with climbers from around the globe. Read
             inspiring stories that highlight challenges, triumphs, and personal
@@ -194,11 +199,13 @@
             <em><strong>Weekly Challenges and Goals</strong></em>
           </div>
           <br />
-          <img
-            src="/assets/images/wc_goals.png"
-            alt="Community Climbers"
-            class="section-image"
-          />
+          <a href="#">
+            <img
+              src="/assets/images/wc_goals.png"
+              alt="Community Climbers"
+              class="section-image"
+            />
+          </a>
           <p class="gen-text">
             Challenge yourself and fellow members with weekly climbing goals.
             Whether you're a beginner aiming for a specific climb or a seasoned
@@ -213,11 +220,13 @@
             <em><strong>Gear Reviews and Recommendations</strong></em>
           </div>
           <br />
-          <img
-            src="/assets/images/gear_rev.png"
-            alt="Community Climbers"
-            class="section-image"
-          />
+          <a href="#">
+            <img
+              src="/assets/images/gear_rev.png"
+              alt="Community Climbers"
+              class="section-image"
+            />
+          </a>
           <p class="gen-text">
             Gear up for success with our expert reviews and recommendations.
             Discover the latest climbing gear and get advice on selecting the
@@ -230,11 +239,14 @@
             <em><strong>Climbing Safety Tips</strong></em>
           </div>
           <br />
-          <img
-            src="/assets/images/climb_safe.png"
-            alt="Community Climbers"
-            class="section-image"
-          />
+          <a href="#">
+            <img
+              src="/assets/images/climb_safe.png"
+              alt="Community Climbers"
+              class="section-image"
+            />
+          </a>
+
           <p class="gen-text">
             Safety is paramount in climbing. Explore our resources on climbing
             safety, including articles, videos, and infographics. Join
@@ -245,6 +257,30 @@
       </div>
     </div>
   </body>
+  <br />
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="edudisclaimer">
+        <h6>Educational Disclaimer:</h6>
+        <p>
+          This website serves an educational purpose, offering general
+          information on Climbing. While we strive for accuracy, the content
+          should not be considered professional advice. It does not replace
+          personalised consultation with experts in relevant fields. We make no
+          warranties regarding the completeness, accuracy, or suitability of the
+          information. Users are encouraged to verify and seek professional
+          advice for specific concerns. External links are provided for
+          convenience and do not imply endorsement. The website is not
+          responsible for the content of linked sites. Users interact with the
+          content at their own risk, acknowledging the site's educational intent
+          without guaranteeing absolute accuracy or completeness.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
   <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
