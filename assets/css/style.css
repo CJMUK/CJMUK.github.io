@@ -153,7 +153,6 @@ cta-news-button {
   padding: 25px;
 }
 
-
 /* Footer */
 
 .main-footer {
@@ -192,30 +191,57 @@ footer h6 {
   align-items: center;
 }
 
-a, .footer-container{
+a,
+.footer-container {
   color: rgb(231, 231, 231);
 }
 
-a:hover, .footer-container{
-  color: rgba(167, 166, 166, 0.80);
+a:hover,
+.footer-container {
+  color: rgba(167, 166, 166, 0.8);
   text-decoration: none;
 }
 .directory {
   list-style-type: none;
   text-align: center;
   margin-right: 200px;
-  
+
   font-family: Oswald, sans-serif;
 }
 
-.top-container{
+.top-container {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   width: 100%;
   align-items: center;
 }
 
-.footer-container{
+.footer-container {
   display: flex;
   justify-content: center;
 }
+
+/* com-hub styles */
+.comhub-hero-container {
+  position: relative;
+  background: url("../images/com-hub-hero.JPG") center/cover no-repeat;
+  height: 80vh;
+}
+ 
+ /* sum-spec styles */
+
+ .sumspec-hero-container {
+  position: relative;
+  background: url("../images/sum-spec-hero.JPG") center/cover no-repeat;
+  height: 80vh;
+}
+
+/* indoor climbing styles */
+
+.indclimb-hero-container {
+  position: relative;
+  background: url("../images/ind-climb-hero.jpg") center/cover no-repeat;
+  height: 80vh;
+}
+
+
