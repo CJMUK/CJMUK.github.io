@@ -226,10 +226,79 @@ a:hover,
   background: url("../images/com-hub-hero.JPG") center/cover no-repeat;
   height: 80vh;
 }
- 
- /* sum-spec styles */
 
- .sumspec-hero-container {
+.comhub-hero-content {
+  border: 1px solid red;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  /* display: flex;
+  justify-content: center; */
+  width: 100%;
+  margin-bottom: 10vh;
+}
+
+.form-section {
+  clear: left;
+  background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
+
+.signup-form {
+  margin-top: 150px;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+  max-width: 400px;
+  position: absolute;
+  left: 10%;
+  width: 100%;
+  padding: 30px;
+}
+
+.signup-form h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5 20 0 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+
+.text-input:hover {
+  border-color: #f16c6b;
+}
+
+.join-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #7e7d7d8a;
+  color: #fafafa;
+  display: block;
+}
+
+.join-button:hover {
+  background-color: #7e7d7d;
+  color: #680707;
+}
+
+.form-title {
+  text-align: center !important; 
+}
+
+/* sum-spec styles */
+
+.sumspec-hero-container {
   position: relative;
   background: url("../images/sum-spec-hero.JPG") center/cover no-repeat;
   height: 80vh;
@@ -242,5 +311,3 @@ a:hover,
   background: url("../images/ind-climb-hero.jpg") center/cover no-repeat;
   height: 80vh;
 }
-
-
