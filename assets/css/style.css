@@ -39,6 +39,10 @@ body {
   color: grey;
 }
 
+.main-container{
+  width: 97vw;
+}
+
 .main-nav {
   display: flex;
   justify-content: space-between;
