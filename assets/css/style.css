@@ -232,8 +232,6 @@ a:hover,
   position: absolute;
   top: 0;
   z-index: 99;
-  /* display: flex;
-  justify-content: center; */
   width: 100%;
   margin-bottom: 10vh;
 }
@@ -246,7 +244,7 @@ a:hover,
 .signup-form {
   margin-top: 150px;
   color: #fff;
-  background-color: rgba(60, 60, 60, 0.6);
+  background-color: rgb(60, 60, 60, 0.95);
   max-width: 400px;
   position: absolute;
   left: 10%;
@@ -279,14 +277,14 @@ a:hover,
   padding: 15px 32px;
   text-align: center;
   font-size: 100%;
-  background-color: #7e7d7d8a;
-  color: #fafafa;
+  background-color: rgba(241, 241, 241, 0.9);
+  color: #000000;
   display: block;
 }
 
 .join-button:hover {
-  background-color: #7e7d7d;
-  color: #680707;
+  background-color: #f4dc06;
+  color: #000000;
 }
 
 .form-title {
