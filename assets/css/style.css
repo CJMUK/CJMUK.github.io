@@ -302,10 +302,24 @@ a:hover,
   height: 80vh;
 }
 
-/* indoor climbing styles */
+.summit-section-headers {
+  font-weight: 800;
+  padding-top: 25px;
+}
 
-.indclimb-hero-container {
-  position: relative;
-  background: url("../images/ind-climb-hero.jpg") center/cover no-repeat;
-  height: 80vh;
+.youtube-video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  height: 400px;
+}
+
+.youtube-video{
+  display: block;
+}
+
+.summit-container{
+  padding-right: 22%;
+  padding-left: 22%;
 }
