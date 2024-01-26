@@ -1,6 +1,6 @@
 # Climbers-Club
 
-Visit the website [here](#climbers-club-se9p.vercel.app
+Visit the website [here](https://climbers-club-se9p.vercel.app
 )
 
 Climbers-Club is a website created to provide guidance and inspiration for climbers, particularly those interested in rock climbing outdoors. This project was developed for educational purposes only.
