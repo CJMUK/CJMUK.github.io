@@ -11,13 +11,14 @@ Climbers-Club is a website created to provide guidance and inspiration for climb
    - A welcoming introduction image to the website and the sections below provide direction for the user.
 
    - Users can sign up for Climbers-Club's newsletter for future updates and content.
+![!\\[Newsletter home image screenshot\\](image.png)\](<docs/newsletter and home screen.png>)](docs/newsletter-and-home-screen.png)
 
 2. **Summit Spectrum:**
    - Section filled with valuable tips for climbing and also background stories and news within the climbing world.
-
+![!\[summit spectrum screenshot of weekly challenges and goals\](image.png)](docs/summit-spec-goals.png)
 3. **Community Hub:**
     - Users can sign up to be part of the community. (int eh future this would send them a link to log into a fully developed members area)
-   
+  ![ !\[Community Hub form screenshot\](image.png)](docs/communityhub-form.png)
 
 ## Business Goals
 
@@ -50,13 +51,18 @@ To achieve the desired user and business goals, the website includes features su
 
 The website follows a single-page structure with the following order:
 1. Home (Newsletter Signup)
+![Homepage and newsletter](docs/newsletter-and-home-screen.png)
+![!\[More of the homepage and example of whats on it\](image.png)](docs/homepage-screenshot2.png)
 2. Summit Spectrum
+![!\[part 1 of the summit spectrum page\](image.png)](docs/summitspec-1.png)
+![!\[part 2 of the summit spectrum page\](image.png)](docs/summitspec-2.png)
+![part 3 of the summit spectrum page](docs/summit-spec-goals.png)
 3. Community Hub (Community Signup form)
+![!\[Community hub page\](image.png)](docs/communityhub-full-sc.png)
 
 
 ## Surface
 
-- Color Palette: Blues and greens for a nature-inspired theme.
 - Fonts: 'Lato', 'Oswald'
 - Fully responsive design for optimal viewing on various devices.
 
@@ -77,11 +83,54 @@ The website follows a single-page structure with the following order:
 ## Testing
 
 - HTML and CSS validated with no errors.
-- Known bugs, including 404 errors, were identified and resolved.
 
 ## Deployment
 
-The website is deployed using Vercel. Follow the steps in the README for deployment instructions.
+The Climbers Club website is deployed using [Vercel](https://vercel.com/) with seamless integration with the GitHub repository. Follow the steps below to deploy the website:
+
+### Vercel Deployment Steps:
+
+1. **Login to Vercel:**
+   - Log in to your Vercel account or sign up if you don't have an account.
+
+2. **Create a New Project:**
+   - Click on the "Create" button to start a new project.
+
+3. **Connect GitHub Repository:**
+   - Choose the "Import Git Repository" option.
+   - Select your Climbers Club GitHub repository.
+
+4. **Configure Project Settings:**
+   - Configure your project settings, including the branch you want to deploy (usually the main/master branch).
+
+5. **Build Settings:**
+   - Vercel will automatically detect the type of project (Next.js, React, etc.).
+   - Ensure the build settings are appropriate for your project.
+
+6. **Environment Variables:**
+   - If your project requires environment variables, add them in the Vercel dashboard.
+
+7. **Deploy:**
+   - Click on the "Deploy" button to start the deployment process.
+
+8. **View Deployment:**
+   - Once the deployment is successful, Vercel will provide you with a unique URL for your deployed Climbers Club website.
+
+### Automatic Deployment:
+
+With Vercel's GitHub integration, every push to the configured branch on GitHub triggers an automatic deployment. This ensures that your deployed website stays up-to-date with the latest changes in the GitHub repository.
+
+### Manual Redeployment:
+
+If needed, you can manually trigger a redeployment on Vercel:
+   - In the Vercel dashboard, go to your project.
+   - Click on the "Deployments" tab.
+   - Click on the "Redeploy" button for the specific deployment you want to update.
+
+Now, your Climbers Club website is live and can be accessed through the provided Vercel URL.
+
+Feel free to check the [Vercel Documentation](https://vercel.com/docs) for more detailed information on deploying and managing projects.
+
 
 
 ## Acknowledgements
