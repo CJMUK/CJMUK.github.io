@@ -220,8 +220,8 @@ a:hover,
 
 @media (max-width: 767px) {
   .top-container {
-    flex-direction: column; 
-    align-items: flex-start; 
+    flex-direction: column;
+    align-items: flex-start;
     display: flex;
   }
 }
@@ -280,6 +280,21 @@ a:hover,
   }
 }
 
+/* Media query for very small screens less than or equal to 390px */
+@media only screen and (max-width: 398px) {
+  .signup-form {
+    max-width: 80%;
+    /* Adjust other styles as needed for screens less than 390px */
+  }
+}
+
+@media only screen and (max-width: 398px) {
+  .form-title .fa-mountain,
+  .fa-beat {
+    display: none;
+  }
+}
+
 .signup-form h2 {
   color: #fafafa;
   margin-bottom: 20px;
@@ -319,7 +334,6 @@ a:hover,
   text-align: center !important;
 }
 
-
 /* sum-spec styles */
 
 .sumspec-hero-container {
@@ -329,7 +343,7 @@ a:hover,
 
   /* Media query for screens with a maximum width of 767px*/
   @media (max-width: 767px) {
-    height: 50vh; 
+    height: 50vh;
   }
 }
 
