@@ -5,20 +5,6 @@ Visit the website [here](https://climbers-club-se9p.vercel.app
 
 Climbers-Club is a website created to provide guidance and inspiration for climbers, particularly those interested in rock climbing outdoors. This project was developed for educational purposes only.
 
-## Website Sections
-
-1. **Home/Introduction & Newsletter Signup:**
-   - A welcoming introduction image to the website and the sections below provide direction for the user.
-
-   - Users can sign up for Climbers-Club's newsletter for future updates and content.
-![!\\[Newsletter home image screenshot\\](image.png)\](<docs/newsletter and home screen.png>)](docs/newsletter-and-home-screen.png)
-
-2. **Summit Spectrum:**
-   - Section filled with valuable tips for climbing and also background stories and news within the climbing world.
-![!\[summit spectrum screenshot of weekly challenges and goals\](image.png)](docs/summit-spec-goals.png)
-3. **Community Hub:**
-    - Users can sign up to be part of the community. (int eh future this would send them a link to log into a fully developed members area)
-  ![ !\[Community Hub form screenshot\](image.png)](docs/communityhub-form.png)
 
 ## Business Goals
 
@@ -49,40 +35,174 @@ To achieve the desired user and business goals, the website includes features su
 
 ## Structure
 
-The website follows a single-page structure with the following order:
-1. Home (Newsletter Signup)
-![Homepage and newsletter](docs/newsletter-and-home-screen.png)
-![!\[More of the homepage and example of whats on it\](image.png)](docs/homepage-screenshot2.png)
-2. Summit Spectrum
-![!\[part 1 of the summit spectrum page\](image.png)](docs/summitspec-1.png)
-![!\[part 2 of the summit spectrum page\](image.png)](docs/summitspec-2.png)
-![part 3 of the summit spectrum page](docs/summit-spec-goals.png)
-3. Community Hub (Community Signup form)
-![!\[Community hub page\](image.png)](docs/communityhub-full-sc.png)
+1. **Home/Introduction & Newsletter Signup:**
+   - A welcoming introduction image to the website and the sections below provide direction for the user.
+
+   - Users can sign up for Climbers-Club's newsletter for future updates and content.
+![!\\[Newsletter home image screenshot\\](image.png)\](<docs/newsletter and home screen.png>)](docs/newsletter-and-home-screen.png)
+
+2. **Summit Spectrum:**
+   - Section filled with valuable tips for climbing and also background stories and news within the climbing world.
+![!\[summit spectrum screenshot of weekly challenges and goals\](image.png)](docs/summit-spec-goals.png)
+3. **Community Hub:**
+    - Users can sign up to be part of the community. (int eh future this would send them a link to log into a fully developed members area)
+  ![ !\[Community Hub form screenshot\](image.png)](docs/communityhub-form.png)
 
 
-## Surface
+
+## Surface & Technologies Used
+
+### Surface
 
 - Fonts: 'Lato', 'Oswald'
 - Fully responsive design for optimal viewing on various devices.
 
-## Technologies Used
+### Technologies Used
 
 - HTML, CSS, JavaScript (for responsive features).
 - Google Fonts for 'Lato' and 'Oswald'.
 - Font Awesome for social media icons.
 - Various tools for development, validation, and testing i.e.: Vercel (for deployment)
 
-## Features
+# Features
 
-- Fully responsive design, mobile-first approach.
-- Navbar with a collapsible menu for smaller screens.
-- Visually appealing sections with consistent fonts and colors.
-- Interactive elements like image overlays with 'find out more' text over them
+## Climbers Club | Home Page:
+
+### HTML Structure:
+- Standard HTML5 structure.
+- Utilizes Bootstrap 4 for styling.
+
+### Navigation Bar:
+- Responsive navigation bar with Bootstrap's navbar class.
+- Links for "Home," "Summit Spectrum," and "Community Hub."
+
+### Modal:
+- A modal encouraging users to sign up for the newsletter.
+- Includes a form with an email input and "Sign Up" button.
+
+### Hero Image:
+- Hero section with a call-to-action button for newsletter sign-up.
+
+### Story Sections:
+- Multiple story sections with images.
+- Each section includes a title, image with hover effects, and a brief description.
+- External link for "Gear Reviews and Recommendations."
+
+### Footer:
+- Educational disclaimer.
+- Social media links using Font Awesome icons.
+- Website directory links for navigation.
+
+### JavaScript Libraries:
+- Bootstrap JS and Popper.js for responsiveness.
+- Font Awesome for social media icons.
+
+## Climbers Club | Summit Spectrum:
+
+### HTML Structure:
+- Standard HTML5 structure.
+- Utilizes Bootstrap 4 for styling.
+
+### Navigation Bar:
+- Responsive navigation bar with Bootstrap's navbar class.
+- Links for "Home," "Summit Spectrum" (active), and "Community Hub."
+
+### Hero Section:
+- Hero section for a visually appealing introduction.
+
+### Content Sections:
+- Multiple sections with titles and paragraphs related to climbing topics.
+- Embedded YouTube videos for additional media content.
+
+### Footer:
+- Educational disclaimer.
+- Social media links using Font Awesome icons.
+- Website directory links.
+
+### JavaScript Libraries:
+- Bootstrap JS, Popper.js, and Font Awesome for responsiveness.
+
+## Climbers Club | Community Hub:
+
+### HTML Structure:
+- Standard HTML5 structure.
+- Utilizes Bootstrap 4 for styling.
+
+### Navigation Bar:
+- Responsive navigation bar with Bootstrap's navbar class.
+- Links for "Home," "Summit Spectrum," and "Community Hub" (active).
+
+### Hero Section with Form:
+- Hero section for encouraging users to sign up.
+- Form with fields for first name, last name, email, and climbing preferences.
+- Form submission to "https://formdump.codeinstitute.net/" in a new tab.
+
+### Footer:
+- Educational disclaimer.
+- Social media links using Font Awesome icons.
+- Website directory links.
+
+### JavaScript Libraries:
+- Bootstrap JS, Popper.js, and Font Awesome for responsiveness.
+
 
 ## Testing
 
-- HTML and CSS validated with no errors.
+### Devices Tested:
+
+- MacBook 13-inch
+- iPhone 10
+- iPhone 12
+- iPhone 13
+- Huawei Laptop 15-inch
+- 24-inch HP Monitor
+
+### Browsers Tested:
+
+- Chrome
+- Microsoft Edge
+- Safari (on iPhone)
+
+### CSS Validation:
+
+- Tested CSS with [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
+- All CSS passed validation.
+
+### Call to Action Button:
+
+- Tested the call-to-action button on the home page (Gero) by clicking.
+
+### Sign Up Form:
+
+- Tested each box on the sign-up form on the community page by clicking.
+
+### Image Overlays:
+
+- Ensured image overlays correctly navigate to the intended destination by clicking.
+
+### Navbar Testing:
+
+- Verified that the navbar displays the correct page by checking the URL.
+
+### Social Links:
+
+- Tested each social link by clicking to confirm they open corresponding news pages in a new tab.
+
+### Form Submission:
+
+- Confirmed that completing forms opens a new tab to enhance user experience, avoiding the need for the back button.
+
+### Responsive Design:
+
+- Checked the website's responsiveness on various devices to ensure a consistent user experience.
+
+### YouTube Videos:
+
+- Ensured embedded YouTube videos do not autoplay on page loading.
+- Verified that users have control over playing and toggling the volume of the embedded videos.
+
+These comprehensive tests cover various aspects of functionality and user experience, including the proper behavior of embedded YouTube videos.
+
 
 ## Deployment
 
@@ -131,10 +251,41 @@ Now, your Climbers Club website is live and can be accessed through the provided
 
 Feel free to check the [Vercel Documentation](https://vercel.com/docs) for more detailed information on deploying and managing projects.
 
-
-
 ## Acknowledgements
 
-Special thanks to course mentor Harry Dhillon for his support and feedback.
+- **Commit Messages:**
+  - Acknowledge that the commit messages started off poorly but improved over time. By the end of the project, the goal was to provide clearer and more descriptive commit messages.
 
----
+- **Code Resources:**
+  - **Stack Overflow:**
+    - A valuable resource for troubleshooting and finding solutions to coding challenges. [Stack Overflow](https://stackoverflow.com/)
+
+  - **W3C:**
+    - The World Wide Web Consortium's resources were crucial for validating and ensuring standards compliance. [W3C](https://www.w3.org/)
+
+  - **ChatGPT:**
+    - Leveraged ChatGPT for assistance and guidance during the development process.
+
+  - **Personal Notes from Code Institute Course:**
+    - The Code Institute course materials provided essential knowledge and guidance. [Code Institute](https://codeinstitute.net/)
+
+- **Images:**
+  - All images used in the Climbers Club website are original and owned by [Your Name].
+
+## Resources
+
+The following resources were instrumental in the development of the Climbers Club website:
+
+- **Stack Overflow:**
+  - [Stack Overflow](https://stackoverflow.com/) - A vibrant community of developers offering solutions to coding queries.
+
+- **W3C:**
+  - [W3C](https://www.w3.org/) - The World Wide Web Consortium's official website for web standards.
+
+- **ChatGPT:**
+  - OpenAI's ChatGPT was utilized for obtaining guidance and solutions during the development process.
+
+- **Code Institute:**
+  - [Code Institute](https://codeinstitute.net/) - The official website for Code Institute, providing comprehensive courses in web development.
+
+These resources played a crucial role in overcoming challenges, improving code quality, and enhancing the overall development experience.
