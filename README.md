@@ -49,6 +49,19 @@ To achieve the desired user and business goals, the website includes features su
   ![ !\[Community Hub form screenshot\](image.png)](docs/communityhub-form.png)
 
 
+## Wireframes
+
+### Home Page
+![Home Page Wireframe](docs/Wireframe-homepage.png)
+
+### Summit Spectrum
+![Summit Spectrum Wireframe](docs/Wireframe-sum_spec.png)
+
+### Community Hub
+![Community Hub Wireframe](docs/Wireframe-com_hub.png)
+
+These wireframes provide an overview of the design for different sections of the Climbers Club website.
+
 
 ## Surface & Technologies Used
 
