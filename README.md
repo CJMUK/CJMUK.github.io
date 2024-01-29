@@ -270,7 +270,7 @@ Feel free to check the [Vercel Documentation](https://vercel.com/docs) for more 
     - The Code Institute course materials provided essential knowledge and guidance. [Code Institute](https://codeinstitute.net/)
 
 - **Images:**
-  - All images used in the Climbers Club website are original and owned by [Your Name].
+  - All images used in the Climbers Club website are original and owned by Cameron Maclean.
 
 ## Resources
 
