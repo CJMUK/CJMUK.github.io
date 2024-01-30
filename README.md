@@ -2,7 +2,7 @@
 
 Visit the website via Vercel [here](https://climbers-club-se9p.vercel.app
 )
-Visit the website via Github Pages [here](https://cjmuk.github.io/Climbers-Club/
+Visit the website via Github Pages [here](https://climbers-club-se9p.vercel.app
 )
 
 Climbers-Club is a website created to provide guidance and inspiration for climbers, particularly those interested in rock climbing outdoors. This project was developed for educational purposes only.
@@ -312,7 +312,7 @@ If you don't have a GitHub repository, create one:
 
 ### 2. Push Your Website Files
 Push your website files to the GitHub repository:
-```bash
+
 # Initialize a new Git repository (if not done)
 git init
 
@@ -325,7 +325,6 @@ git commit -m "Initial commit"
 # Set remote repository URL and push
 git remote add origin https://github.com/your-username/your-repository.git
 git push -u origin master
-
 
 ## Acknowledgements
 
