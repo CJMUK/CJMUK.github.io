@@ -289,6 +289,42 @@ Now, your Climbers Club website is live and can be accessed through the provided
 
 Feel free to check the [Vercel Documentation](https://vercel.com/docs) for more detailed information on deploying and managing projects.
 
+Climbers Club website is also deployed using [Github Pages](https://pages.github.com/) with seamless integration with the GitHub repository. Follow the steps below to deploy the website:
+
+# Deploying a Website through GitHub Pages
+
+GitHub Pages allows you to host static websites directly from your GitHub repositories, making it easy to showcase your projects. This guide outlines the steps to deploy your website using GitHub Pages.
+
+## Prerequisites
+- **GitHub Account:** Ensure you have a GitHub account. If not, sign up at [GitHub](https://github.com/).
+- **Git Installed:** Make sure Git is installed on your local machine. Download it from [Git](https://git-scm.com/).
+- **Static Website:** GitHub Pages is suitable for hosting static websites (HTML, CSS, and JavaScript).
+
+## Steps to Deploy
+
+### 1. Create a New Repository
+If you don't have a GitHub repository, create one:
+1. Log in to GitHub.
+2. Click the "+" in the top right and choose "New repository."
+3. Enter a Repository name, add a description (optional), and click "Create repository."
+
+### 2. Push Your Website Files
+Push your website files to the GitHub repository:
+```bash
+# Initialize a new Git repository (if not done)
+git init
+
+# Add files to the repository
+git add .
+
+# Commit the changes
+git commit -m "Initial commit"
+
+# Set remote repository URL and push
+git remote add origin https://github.com/your-username/your-repository.git
+git push -u origin master
+
+
 ## Acknowledgements
 
 - **Commit Messages:**
@@ -309,6 +345,9 @@ Feel free to check the [Vercel Documentation](https://vercel.com/docs) for more 
 
 - **Images:**
   - All images used in the Climbers Club website are original and owned by Cameron Maclean.
+
+  - **Deployment:**
+  - Originally, this website was solely deployed through Vercel. However, Student Care & Tutor Support for Code Institute insisted that it must be deployed through GitHub Pages, so that deployment was added at the end of the project. This website is still deployed through both.
 
 ## Resources
 
